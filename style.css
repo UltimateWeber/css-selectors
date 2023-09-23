@@ -1,0 +1,32 @@
+/* universal selector */
+/* applying style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* (.)class selector */
+.parent {
+  background-color: black;
+  color: white;
+  margin: 20px auto 10px;
+  padding: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+.tittle {
+  color: white;
+  font-size: 0.9rem;
+  background-color: purple;
+}
+.button container {
+  margin-top: 10px;
+}
+
+.button container button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+}
